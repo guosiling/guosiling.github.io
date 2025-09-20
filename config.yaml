@@ -124,10 +124,10 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    intro: "Hello/你好呀, my name is"
+    title: "Siling Guo."
+    subtitle: "I'm a Ph.D. candidate in the School of Education at the University of California, Irvine, specializing in Human Development in Context."
+    content: "My research examines how cognitive and social-emotional skills interact and develop across developmental periods, using longitudinal modeling, simulation methods, and randomized intervention studies."
     image: /images/hero.svg
     bottomImage:
       enable: false
@@ -137,7 +137,7 @@ params:
       name: "CV"
       url: "/cv/cv.pdf" # 
       download: false
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
