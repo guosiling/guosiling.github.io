@@ -126,7 +126,7 @@ params:
     enable: true
     intro: "Hello/你好呀, my name is"
     title: "Siling Guo."
-    subtitle: "I'm a Ph.D. candidate in the School of Education at the University of California, Irvine, specializing in Human Development in Context."
+    subtitle: "I'm a Ph.D. candidate in Education at the University of California, Irvine."
     content: "My research examines how cognitive and social-emotional skills interact and develop across developmental periods, using longitudinal modeling, simulation methods, and randomized intervention studies."
     image: /images/hero.svg
     bottomImage:
