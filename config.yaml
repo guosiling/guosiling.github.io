@@ -68,7 +68,7 @@ params:
     enable: true
     intro: "Hello/你好呀, my name is"
     title: "Siling Guo."
-    subtitle: "I'm a Ph.D. candidate in Education at the University of California, Irvine."
+    subtitle: "I'm a PhD candidate in Education at the University of California, Irvine."
     content: "I will be on the job market in fall 2026."
     image: /images/hero.svg
     bottomImage:
@@ -95,7 +95,33 @@ params:
     image: "/images/me.png"
     content: |-
       I am a Ph.D. candidate in the School of Education at the University of California, Irvine, specializing in Human Development in Context. My research examines how cognitive and social-emotional skills interact and develop across childhood and adolescence, with a particular focus on mathematics learning and educational interventions. I use longitudinal modeling, simulation methods, and randomized studies to understand developmental processes and evaluate how programs can support children's learning and well-being.
-    skills:
+
+      **Publications**
+
+      Wan, S., Tian, J., Guo, S., & Lauermann, F. (in press). Do students become more likely to see themselves as a "math person" or a "language person" across K-12? Evidence from four U.S. longitudinal datasets. *Child Development*.
+
+      Begolli, K. N.\*, Guo, S.\*, Acevedo-Farag, L. M., Sanchez, G., Yu, X., Kim, Y., Vu, M., Hernandez, L., Ahn, J., Bailey, D., Bustamante, A. S., Rhodes, K., & Richland, L. (2026). Enhancing flexible transfer of fractions: The role of sequential and simultaneous games with multiple representations. *Cognitive Science*, *50*, e70168. https://doi.org/10.1111/cogs.70168 *(* First authorship shared)*
+
+      Guo, S., Bailey, D. H., Rhodes, K., Begolli, K. N., Bermudez, V. N., Lawrence, L., Alvarez-Vargas, D., Acevedo-Farag, L. M., Ahn, J., Bustamante, A. S., & Richland, L. E. (2024). Buckets of fun: Impacts of fraction ball activities on students' math-related emotions. *Journal of Applied Developmental Psychology*, *92*, 101645. https://doi.org/10.1016/j.appdev.2024.101645
+
+      Guo, S., Sun, T., Gong, J., Lu, Z., Wang, Q., & Zhang, L. (2022). Remote co-teaching in rural classrooms: Current practice, perceptions, and challenges. In *CHI Conference on Human Factors in Computing Systems (CHI '22)*, April 29–May 5, 2022, New Orleans, LA, USA. ACM. https://doi.org/10.1145/3491102.3501924
+
+      Gong, J., Han, T., Guo, S., Li, J., Zha, S., Zhang, L., ... & Rui, Y. (2021). HoloBoard: A large-format immersive teaching board based on pseudo holographics. In *The 34th Annual ACM Symposium on User Interface Software and Technology (UIST '21)*, October 10–14, 2021, Virtual Event, USA. ACM. https://doi.org/10.1145/3472749.3474761
+
+      **Under Revision**
+
+      Guo, S., & Wolf, S. (Conditional Acceptance). The relation of classroom-level school readiness to classroom quality and teacher well-being in Ghanaian preschools. *Early Education and Development*.
+
+      Guo, S., Hübner, N., Zitzmann, S., Hecht, M., Murayama, K., & Bailey, D. H. (Revise and Resubmit). Random intercepts and slopes in longitudinal models: When are they "good" and "bad" controls? *Psychological Methods*.
+
+      Cristancho, J. C., Guo, S., McCoy, D. C., & Bailey, D. H. (Revise and Resubmit). A meta-analysis of the effects of objective measures of exposure to community violence on child outcomes. *Developmental Psychology*.
+
+      Acevedo-Farag, L. M., Guo, S., Kim, Y., Romero, L., Yu, X., Begolli, K. N., Bustamante, A. S., & Ahn, J. (Revise and Resubmit). Structuring playful learning: How task design influences engagement in a playful math intervention. *Educational Designer*.
+
+      **Working Paper**
+
+      Ebby, C. B., Diaz, K. G., Pecora, L., Suwak, K., Ehrenberg, Z., & Guo, S. (2023). *Effects of the first year of a 3-year intervention in learning trajectory-oriented formative assessment on grades PreK-3 student achievement* (Working Paper). Scholarly Commons, University of Pennsylvania.
+    skillls:
       enable: true
       title: "Research Interests:"
       items:
@@ -104,7 +130,7 @@ params:
         - "Mathematical Cognition"
         - "Math Motivation"
         - "Program Evaluation"
-        - "Meta-Research"
+        - "Quantitative Methods"
 
   # Hide unused sections
   experience:
@@ -118,7 +144,7 @@ params:
 
   # Publications (using achievements section)
   achievements:
-    enable: true
+    enable: false
     title: "Publications"
     items:
       - title: "Do Students Become More Likely to See Themselves as a Math Person or a Language Person Across K-12?"
@@ -166,9 +192,9 @@ params:
   # Contact
   contact:
     enable: true
-    content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-    btnName: Mail me
-    btnLink: mailto:gusiling@uci.edu
+    content: I welcome collaboration with researchers, educators, and partner organizations interested in child development, mathematics learning, and the design and evaluation of educational interventions.
+    btnName: Contact me
+    btnLink: mailto:silingg1@uci.edu
 
   footer:
     recentPosts:
@@ -178,7 +204,6 @@ params:
       enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com/guosiling
       linkedin: https://www.linkedin.com/in/siling-guo
 
   listPages:
