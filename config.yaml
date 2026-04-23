@@ -121,7 +121,7 @@ params:
     enable: true
     title: "Publications"
     items:
-      - title: "Do Students Become More Likely to See Themselves as a "Math Person" or a "Language Person" Across K-12?"
+      - title: "Do Students Become More Likely to See Themselves as a Math Person or a Language Person Across K-12?"
         content: "Wan, S., Tian, J., **Guo, S.**, & Lauermann, F. *(In Press)*. Child Development."
         url: https://doi.org/10.1111/cogs.70168
 
