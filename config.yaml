@@ -1,6 +1,6 @@
 baseURL: "https://guosiling.github.io/"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Siling Guo"
 theme: hugo-profile
 
 outputs:
@@ -21,14 +21,6 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blogs
-      title: Blog posts
-      url: /blogs
-      weight: 1
-
 params:
   title: "Siling Guo"
   description: Personal academic website of Siling Guo
@@ -48,10 +40,18 @@ params:
     lineHeight: 1.5
     textAlign: left
 
+  color:
+    textColor: "#2d2d2d"
+    secondaryTextColor: "#555555"
+    backgroundColor: "#ffffff"
+    secondaryBackgroundColor: "#f8f8f8"
+    primaryColor: "#2c5f8a"
+    secondaryColor: "#f0f4f8"
+
   navbar:
     align: ms-auto
     brandName: "Siling Guo"
-    disableSearch: false
+    disableSearch: true
     stickyNavBar:
       enable: true
       showOnScrollUp: true
@@ -60,7 +60,7 @@ params:
       disableExperience: true
       disableEducation: true
       disableProjects: true
-      disableAchievements: false
+      disableAchievements: true
       disableContact: false
 
   # Hero (intro page)
@@ -68,11 +68,12 @@ params:
     enable: true
     intro: "Hello/你好呀, my name is"
     title: "Siling Guo."
-    subtitle: "I'm a PhD candidate in Education at the University of California, Irvine."
-    content: "I will be on the job market in fall 2026."
-    image: /images/hero.svg
+    subtitle: "Ph.D. Candidate in Education, University of California, Irvine"
+    content: "I study how children develop mathematical thinking and motivation. I will be on the job market in fall 2026."
+    image: /images/me.png
     bottomImage:
       enable: false
+    roundImage: true
     button:
       enable: true
       name: "CV"
@@ -81,8 +82,6 @@ params:
       newPage: true
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://github.com/guosiling
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/siling-guo
         - icon: fab fa-google
@@ -100,7 +99,7 @@ params:
 
       Wan, S., Tian, J., Guo, S., & Lauermann, F. (in press). Do students become more likely to see themselves as a "math person" or a "language person" across K-12? Evidence from four U.S. longitudinal datasets. *Child Development*.
 
-      Begolli, K. N.\*, Guo, S.\*, Acevedo-Farag, L. M., Sanchez, G., Yu, X., Kim, Y., Vu, M., Hernandez, L., Ahn, J., Bailey, D., Bustamante, A. S., Rhodes, K., & Richland, L. (2026). Enhancing flexible transfer of fractions: The role of sequential and simultaneous games with multiple representations. *Cognitive Science*, *50*, e70168. https://doi.org/10.1111/cogs.70168 *(* First authorship shared)*
+      Begolli, K. N.\*, Guo, S.\*, Acevedo-Farag, L. M., Sanchez, G., Yu, X., Kim, Y., Vu, M., Hernandez, L., Ahn, J., Bailey, D., Bustamante, A. S., Rhodes, K., & Richland, L. (2026). Enhancing flexible transfer of fractions: The role of sequential and simultaneous games with multiple representations. *Cognitive Science*, *50*, e70168. https://doi.org/10.1111/cogs.70168 *(First authorship shared)*
 
       Guo, S., Bailey, D. H., Rhodes, K., Begolli, K. N., Bermudez, V. N., Lawrence, L., Alvarez-Vargas, D., Acevedo-Farag, L. M., Ahn, J., Bustamante, A. S., & Richland, L. E. (2024). Buckets of fun: Impacts of fraction ball activities on students' math-related emotions. *Journal of Applied Developmental Psychology*, *92*, 101645. https://doi.org/10.1016/j.appdev.2024.101645
 
@@ -121,7 +120,7 @@ params:
       **Working Paper**
 
       Ebby, C. B., Diaz, K. G., Pecora, L., Suwak, K., Ehrenberg, Z., & Guo, S. (2023). *Effects of the first year of a 3-year intervention in learning trajectory-oriented formative assessment on grades PreK-3 student achievement* (Working Paper). Scholarly Commons, University of Pennsylvania.
-    skillls:
+    skills:
       enable: true
       title: "Research Interests:"
       items:
@@ -142,52 +141,8 @@ params:
   projects:
     enable: false
 
-  # Publications (using achievements section)
   achievements:
     enable: false
-    title: "Publications"
-    items:
-      - title: "Do Students Become More Likely to See Themselves as a Math Person or a Language Person Across K-12?"
-        content: "Wan, S., Tian, J., **Guo, S.**, & Lauermann, F. *(In Press)*. Child Development."
-        url: https://doi.org/10.1111/cogs.70168
-
-      - title: "Enhancing Flexible Transfer of Fractions"
-        content: "Begolli, K. N.*, **Guo, S.**, * Acevedo-Farag, L.M., et al. (2026). *Cognitive Science*, 50: e70168. [*First authorship shared]"
-        url: https://doi.org/10.1111/cogs.70168
-
-      - title: "Buckets of Fun: Fraction Ball Activities"
-        content: "**Guo, S.**, Bailey, D. H., Rhodes, K., et al. (2024). *Journal of Applied Developmental Psychology*, 92, 101645."
-        url: https://doi.org/10.1016/j.appdev.2024.101645
-
-      - title: "Remote Co-teaching in Rural Classrooms"
-        content: "**Guo, S.**, Sun, T., Gong, J., et al. (2022). *CHI Conference on Human Factors in Computing Systems (CHI'22)*."
-        url: https://doi.org/10.1145/3491102.3501924
-
-      - title: "HoloBoard: A Large-format Immersive Teaching Board"
-        content: "Gong, J., Han, T., **Guo, S.**, et al. (2021). *ACM Symposium on User Interface Software and Technology (UIST'21)*."
-        url: https://doi.org/10.1145/3472749.3474761
-
-      - title: "— Under Revision —"
-        content: ""
-
-      - title: "Classroom-Level School Readiness in Ghanaian Preschools"
-        content: "**Guo, S.**, & Wolf, S. *(Conditional Acceptance)*. *Early Education and Development*."
-
-      - title: "Random Intercepts and Slopes in Longitudinal Models"
-        content: "**Guo, S.**, Hübner, N., Zitzmann, S., et al. *(Revise and Resubmit)*. *Psychological Methods*."
-
-      - title: "Meta-Analysis: Exposure to Community Violence on Child Outcomes"
-        content: "Cristancho, J. C., **Guo, S.**, McCoy, D. C., & Bailey, D. H. *(Revise and Resubmit)*. *Developmental Psychology*."
-
-      - title: "Structuring Playful Learning"
-        content: "Acevedo-Farag, L. M., **Guo, S.**, et al. *(Revise and Resubmit)*. *Educational Designer*."
-
-      - title: "— Working Paper —"
-        content: ""
-
-      - title: "Effects of Learning Trajectory-Oriented Formative Assessment"
-        content: "Ebby, C. B., Diaz, K. G., Pecora, L., Suwak, K., Ehrenberg, Z., & **Guo, S.** (2023). Working Paper, University of Pennsylvania."
-        url: https://scholarcommons.upenn.edu
 
   # Contact
   contact:
