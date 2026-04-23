@@ -151,15 +151,15 @@ params:
     btnName: Contact me
     btnLink: mailto:silingg1@uci.edu
 
-  footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: false
-      disableFeaturedImage: false
-    socialNetworks:
-      linkedin: https://www.linkedin.com/in/siling-guo
+  #footer:
+    #recentPosts:
+      #path: "blogs"
+      #count: 3
+      #title: Recent Posts
+      #enable: false
+      #disableFeaturedImage: false
+    #socialNetworks:
+     # linkedin: https://www.linkedin.com/in/siling-guo
 
   listPages:
     disableFeaturedImage: false
