@@ -15,8 +15,6 @@ outputs:
 pagination:
   pagerSize: 3
 enableRobotsTXT: true
-# disqusShortname: your-disqus-shortname
-# googleAnalytics: G-MEASUREMENT_ID
 
 markup:
   goldmark:
@@ -30,49 +28,14 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-    # - identifier: gallery
-    #   name: Gallery
-    #   title: Blog posts
-    #   url: /gallery
-    #   weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
 
 params:
   title: "Siling Guo"
-  description: Ph.D. Candidate in Education at UC Irvine
-  # staticPath: ""  # The path to serve the static files from
+  description: Personal academic website of Siling Guo
   favicon: "/fav.png"
 
-  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
-  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
-  # Note the lack of "" in true, it should be of boolean type.
   useBootstrapCDN: false
-
-  # If you want to load dynamically responsive images from Cloudinary
-  # This requires your images to be uploaded + hosted on Cloudinary
-  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
-  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
-
-  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
   mathjax: false
-
-  # Whether the fade animations on the home page will be enabled
   animate: true
 
   theme:
@@ -80,54 +43,33 @@ params:
     # defaultTheme: "light" # dark
 
   font:
-    fontSize: 1rem # default: 1rem
-    fontWeight: 400 # default: 400
-    lineHeight: 1.5 # default: 1.5
-    textAlign: left # default: left
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
 
-  # color preference
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
-
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
-
-  # If you want to customize the menu, you can change it here
   navbar:
-    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Siling Guo" # Brand name for the brand | default is the title variable
+    align: ms-auto
+    brandName: "Siling Guo"
     disableSearch: false
-    # searchPlaceholder: "Search"
     stickyNavBar:
-      enable : true
-      showOnScrollUp : true
+      enable: true
+      showOnScrollUp: true
     menus:
       disableAbout: false
-      disableExperience: false
-      disableEducation: false
-      disableProjects: false
+      disableExperience: true
+      disableEducation: true
+      disableProjects: true
       disableAchievements: false
       disableContact: false
 
-  # Hero
+  # Hero (intro page)
   hero:
     enable: true
-    intro: "Hello, my name is"
+    intro: "Hello/你好呀, my name is"
     title: "Siling Guo."
-    subtitle: "I'm a Ph.D. candidate in the School of Education at the University of California, Irvine, specializing in Human Development in Context."
-    content: "My research examines how cognitive and social-emotional skills interact and develop across childhood and adolescence, with a particular focus on mathematics learning and educational interventions."
+    subtitle: "I'm a Ph.D. candidate in Education at the University of California, Irvine."
+    content: "I will be on the job market in fall 2026."
     image: /images/hero.svg
     bottomImage:
       enable: false
@@ -139,10 +81,12 @@ params:
       newPage: true
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-google-scholar
-          url: https://scholar.google.com/citations?user=1JWqhlEAAAAJ&hl=en
+        - icon: fab fa-github
+          url: https://github.com/guosiling
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/siling-guo
+        - icon: fab fa-google
+          url: https://scholar.google.com/citations?user=1JWqhlEAAAAJ&hl=en
 
   # About
   about:
@@ -162,61 +106,69 @@ params:
         - "Program Evaluation"
         - "Meta-Research"
 
-  # Experience
+  # Hide unused sections
   experience:
     enable: false
-    items: []
 
-  # Education
   education:
     enable: false
-    items: []
 
-  # Achievements - Publications
-  achievements:
-    enable: true
-    items:
-      - title: "Do Students Become More Likely to See Themselves as a \"Math Person\" or a \"Language Person\" Across K-12?"
-        content: Wan, S., Tian, J., Guo, S., & Lauermann, F. (In Press). Child Development.
-        url: https://doi.org/10.1111/cogs.70168
-      - title: "Enhancing Flexible Transfer of Fractions"
-        content: Begolli, K. N.*, Guo, S.*, Acevedo-Farag, L.M., et al. (2026). Cognitive Science.
-        url: https://doi.org/10.1111/cogs.70168
-      - title: "Buckets of Fun: Fraction Ball Activities"
-        content: Guo, S., Bailey, D. H., Rhodes, K., et al. (2024). Journal of Applied Developmental Psychology.
-        url: https://doi.org/10.1016/j.appdev.2024.101645
-      - title: "Remote Co-teaching in Rural Classrooms"
-        content: Guo, S., Sun, T., Gong, J., et al. (2022). CHI'22.
-        url: https://doi.org/10.1145/3491102.3501924
-      - title: "HoloBoard: A Large-format Immersive Teaching Board"
-        content: Gong, J., Han, T., Guo, S., et al. (2021). UIST'21.
-        url: https://doi.org/10.1145/3472749.3474761
-      - title: "Classroom-Level School Readiness in Ghanaian Preschools"
-        content: Guo, S., & Wolf, S. (Conditional Acceptance). Early Education and Development.
-      - title: "Random Intercepts and Slopes in Longitudinal Models"
-        content: Guo, S., Hübner, N., et al. (Revise and Resubmit). Psychological Methods.
-      - title: "Meta-Analysis: Exposure to Community Violence on Child Outcomes"
-        content: Cristancho, J. C., Guo, S., et al. (Revise and Resubmit). Developmental Psychology.
-      - title: "Effects of Learning Trajectory-Oriented Formative Assessment"
-        content: Ebby, C. B., Diaz, K. G., et al. (2023). Working Paper, University of Pennsylvania.
-        url: https://scholarcommons.uspenn.edu
-
-  # projects
   projects:
     enable: false
-    items: []
 
-  #Contact
+  # Publications (using achievements section)
+  achievements:
+    enable: true
+    title: "Publications"
+    items:
+      - title: "Do Students Become More Likely to See Themselves as a "Math Person" or a "Language Person" Across K-12?"
+        content: "Wan, S., Tian, J., **Guo, S.**, & Lauermann, F. *(In Press)*. Child Development."
+        url: https://doi.org/10.1111/cogs.70168
+
+      - title: "Enhancing Flexible Transfer of Fractions"
+        content: "Begolli, K. N.*, **Guo, S.**, * Acevedo-Farag, L.M., et al. (2026). *Cognitive Science*, 50: e70168. [*First authorship shared]"
+        url: https://doi.org/10.1111/cogs.70168
+
+      - title: "Buckets of Fun: Fraction Ball Activities"
+        content: "**Guo, S.**, Bailey, D. H., Rhodes, K., et al. (2024). *Journal of Applied Developmental Psychology*, 92, 101645."
+        url: https://doi.org/10.1016/j.appdev.2024.101645
+
+      - title: "Remote Co-teaching in Rural Classrooms"
+        content: "**Guo, S.**, Sun, T., Gong, J., et al. (2022). *CHI Conference on Human Factors in Computing Systems (CHI'22)*."
+        url: https://doi.org/10.1145/3491102.3501924
+
+      - title: "HoloBoard: A Large-format Immersive Teaching Board"
+        content: "Gong, J., Han, T., **Guo, S.**, et al. (2021). *ACM Symposium on User Interface Software and Technology (UIST'21)*."
+        url: https://doi.org/10.1145/3472749.3474761
+
+      - title: "— Under Revision —"
+        content: ""
+
+      - title: "Classroom-Level School Readiness in Ghanaian Preschools"
+        content: "**Guo, S.**, & Wolf, S. *(Conditional Acceptance)*. *Early Education and Development*."
+
+      - title: "Random Intercepts and Slopes in Longitudinal Models"
+        content: "**Guo, S.**, Hübner, N., Zitzmann, S., et al. *(Revise and Resubmit)*. *Psychological Methods*."
+
+      - title: "Meta-Analysis: Exposure to Community Violence on Child Outcomes"
+        content: "Cristancho, J. C., **Guo, S.**, McCoy, D. C., & Bailey, D. H. *(Revise and Resubmit)*. *Developmental Psychology*."
+
+      - title: "Structuring Playful Learning"
+        content: "Acevedo-Farag, L. M., **Guo, S.**, et al. *(Revise and Resubmit)*. *Educational Designer*."
+
+      - title: "— Working Paper —"
+        content: ""
+
+      - title: "Effects of Learning Trajectory-Oriented Formative Assessment"
+        content: "Ebby, C. B., Diaz, K. G., Pecora, L., Suwak, K., Ehrenberg, Z., & **Guo, S.** (2023). Working Paper, University of Pennsylvania."
+        url: https://scholarcommons.upenn.edu
+
+  # Contact
   contact:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
     btnName: Mail me
     btnLink: mailto:gusiling@uci.edu
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
 
   footer:
     recentPosts:
@@ -226,14 +178,12 @@ params:
       enable: false
       disableFeaturedImage: false
     socialNetworks:
-      googlescholar: https://scholar.google.com/citations?user=1JWqhlEAAAAJ&hl=en
+      github: https://github.com/guosiling
       linkedin: https://www.linkedin.com/in/siling-guo
 
-  # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false
 
-  # Single pages like blog and post
   singlePages:
     readTime:
       enable: true
@@ -241,7 +191,6 @@ params:
     scrollprogress:
       enable: true
 
-  # For translations
   terms:
     read: "Read"
     toc: "Table Of Contents"
@@ -253,6 +202,3 @@ params:
     article: "2006-01-02"
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
-
-  #customScripts: -| # You can add custom scripts which will be added before </body> tag
-  #  <script type="text/javascript"><!-- any script here --></script>
