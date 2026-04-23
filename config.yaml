@@ -69,7 +69,7 @@ params:
     intro: "Hello/你好呀, my name is"
     title: "Siling Guo."
     subtitle: "Ph.D. Candidate in Education, University of California, Irvine"
-    content: "I study how children develop mathematical thinking and motivation. I will be on the job market in fall 2026."
+    content: "My research examines early mathematics programs and the long-run impacts of educational interventions. I will be on the job market in fall 2026."
     image: /images/me.png
     bottomImage:
       enable: false
