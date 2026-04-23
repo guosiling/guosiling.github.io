@@ -25,7 +25,6 @@ params:
   title: "Siling Guo"
   description: Personal academic website of Siling Guo
   favicon: "/fav.png"
-  customHeadHTML: '<meta name="google-site-verification" content="lt_ATGC9IaN0nRtw8-UaIUCwhxsyryl5_5-0H9edIqo" />'
 
   useBootstrapCDN: false
   mathjax: false
