@@ -69,7 +69,7 @@ params:
     intro: "Hello/你好呀, my name is"
     title: "Siling Guo"
     subtitle: "PhD Candidate in Education, University of California, Irvine"
-    content: "My research examines early mathematics programs and the long-run impacts of educational interventions. I will be on the job market in fall 2026."
+    content: "My research examines early mathematics programs and the long-term impacts of educational interventions. I will be on the job market in fall 2026."
     image: /images/me.png
     bottomImage:
       enable: false
@@ -93,7 +93,7 @@ params:
     title: "About Me"
     image: "/images/photo2.jpg"
     content: |-
-      I am a Ph.D. candidate in the School of Education at the University of California, Irvine, specializing in Human Development in Context. My research examines how cognitive and social-emotional skills interact and develop across childhood and adolescence, with a particular focus on mathematics learning and educational interventions. I use longitudinal modeling, simulation methods, and randomized studies to understand developmental processes and evaluate how programs can support children's learning and well-being.
+      I am a Ph.D. candidate in the School of Education at the University of California, Irvine, specializing in Human Development in Context. My research examines how cognitive and social-emotional skills interact and develop across childhood and adolescence, with a particular focus on mathematics learning and educational interventions. I use longitudinal modeling, simulation methods, and randomized studies to understand developmental processes and evaluate how programs can support children's learning and development.
 
       **Publications**
 
