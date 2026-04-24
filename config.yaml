@@ -94,6 +94,16 @@ params:
     image: "/images/photo2.jpg"
     content: |-
       I am a Ph.D. candidate in the School of Education at the University of California, Irvine, specializing in Human Development in Context. My research lies at the intersection of developmental science, educational intervention, and quantitative methodology. I examine how children’s cognitive and social-emotional development unfolds in response to educational experiences, with a particular focus on mathematics learning, motivation, and the long-run impacts of interventions. Using randomized and quasi-experimental designs, longitudinal modeling, and meta-analytic methods, I study when intervention effects persist, how skills transfer across domains, and how school contexts support or constrain children’s development over time.
+      
+      **Research Interests:** Child Development, Educational Interventions, Mathematics Learning and Motivation, Quantitative Methods
+
+      **Research Agenda**
+
+      *Persistence and fadeout of intervention effects:* When do educational gains last, and why do some fade?
+
+      *Math learning and motivation:* How do instruction and interventions shape children's achievement and math-related emotions?
+
+      *Developmental methods:* How can longitudinal and causal methods better capture developmental processes and intervention mechanisms?
 
       **Peer-Reviewed Publications**
 
@@ -107,7 +117,7 @@ params:
 
       Gong, J., Han, T., Guo, S., Li, J., Zha, S., Zhang, L., ... & Rui, Y. (2021). HoloBoard: A large-format immersive teaching board based on pseudo holographics. In *The 34th Annual ACM Symposium on User Interface Software and Technology (UIST '21)*, October 10–14, 2021, Virtual Event, USA. ACM. https://doi.org/10.1145/3472749.3474761
 
-      **ManuscriptsUnder Revision**
+      **Manuscripts Under Revision**
 
       Guo, S., & Wolf, S. (Conditional Acceptance). The relation of classroom-level school readiness to classroom quality and teacher well-being in Ghanaian preschools. *Early Education and Development*.
 
@@ -121,7 +131,7 @@ params:
 
       Ebby, C. B., Diaz, K. G., Pecora, L., Suwak, K., Ehrenberg, Z., & Guo, S. (2023). *Effects of the first year of a 3-year intervention in learning trajectory-oriented formative assessment on grades PreK-3 student achievement* (Working Paper). Scholarly Commons, University of Pennsylvania.
     skills:
-      enable: true
+      enable: false
       title: "Research Interests:"
       items:
         - "Child Development"
