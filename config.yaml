@@ -91,7 +91,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/photo2.jpg"
     content: |-
       I am a Ph.D. candidate in the School of Education at the University of California, Irvine, specializing in Human Development in Context. My research examines how cognitive and social-emotional skills interact and develop across childhood and adolescence, with a particular focus on mathematics learning and educational interventions. I use longitudinal modeling, simulation methods, and randomized studies to understand developmental processes and evaluate how programs can support children's learning and well-being.
 
