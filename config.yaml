@@ -66,10 +66,10 @@ params:
   # Hero (intro page)
   hero:
     enable: true
-    intro: "Hello/你好呀, my name is"
+    intro: "Hello, and welcome. I'm"
     title: "Siling Guo"
     subtitle: "PhD Candidate in Education, University of California, Irvine"
-    content: "My research examines early mathematics programs and the long-term impacts of educational interventions. I will be on the job market in fall 2026."
+    content: "I study how educational interventions shape children’s math learning, motivation, and longer-run development. My research integrates developmental theory, randomized field experiments, and longitudinal quantitative methods to understand when intervention effects persist, transfer across domains, or fade over time. I will be on the job market in fall 2026."
     image: /images/me.png
     bottomImage:
       enable: false
@@ -93,9 +93,15 @@ params:
     title: "About Me"
     image: "/images/photo2.jpg"
     content: |-
-      I am a Ph.D. candidate in the School of Education at the University of California, Irvine, specializing in Human Development in Context. My research examines how cognitive and social-emotional skills interact and develop across childhood and adolescence, with a particular focus on mathematics learning and educational interventions. I use longitudinal modeling, simulation methods, and randomized studies to understand developmental processes and evaluate how programs can support children's learning and development.
+      I am a Ph.D. candidate in the School of Education at the University of California, Irvine, specializing in Human Development in Context. My research lies at the intersection of developmental science, educational intervention, and quantitative methodology. I examine how children’s cognitive and social-emotional development unfolds in response to educational experiences, with a particular focus on mathematics learning, motivation, and the long-run impacts of interventions. Using randomized and quasi-experimental designs, longitudinal modeling, and meta-analytic methods, I study when intervention effects persist, how skills transfer across domains, and how school contexts support or constrain children’s development over time.
 
-      **Publications**
+
+      **Research Agenda**
+      - **Persistence and fadeout of intervention effects:** When do educational gains last, and why do some fade?
+      - **Math learning and motivation:** How do instruction and interventions shape children's achievement and math-related emotions?
+      - **Developmental methods:** How can longitudinal and causal methods better capture developmental processes and intervention mechanisms?
+
+      **Peer-Reviewed Publications**
 
       Wan, S., Tian, J., Guo, S., & Lauermann, F. (in press). Do students become more likely to see themselves as a "math person" or a "language person" across K-12? Evidence from four U.S. longitudinal datasets. *Child Development*.
 
@@ -107,7 +113,7 @@ params:
 
       Gong, J., Han, T., Guo, S., Li, J., Zha, S., Zhang, L., ... & Rui, Y. (2021). HoloBoard: A large-format immersive teaching board based on pseudo holographics. In *The 34th Annual ACM Symposium on User Interface Software and Technology (UIST '21)*, October 10–14, 2021, Virtual Event, USA. ACM. https://doi.org/10.1145/3472749.3474761
 
-      **Under Revision**
+      **ManuscriptsUnder Revision**
 
       Guo, S., & Wolf, S. (Conditional Acceptance). The relation of classroom-level school readiness to classroom quality and teacher well-being in Ghanaian preschools. *Early Education and Development*.
 
@@ -117,7 +123,7 @@ params:
 
       Acevedo-Farag, L. M., Guo, S., Kim, Y., Romero, L., Yu, X., Begolli, K. N., Bustamante, A. S., & Ahn, J. (Revise and Resubmit). Structuring playful learning: How task design influences engagement in a playful math intervention. *Educational Designer*.
 
-      **Working Paper**
+      **Working Papers**
 
       Ebby, C. B., Diaz, K. G., Pecora, L., Suwak, K., Ehrenberg, Z., & Guo, S. (2023). *Effects of the first year of a 3-year intervention in learning trajectory-oriented formative assessment on grades PreK-3 student achievement* (Working Paper). Scholarly Commons, University of Pennsylvania.
     skills:
@@ -125,10 +131,8 @@ params:
       title: "Research Interests:"
       items:
         - "Child Development"
-        - "Early Childhood Education"
-        - "Mathematical Cognition"
-        - "Math Motivation"
-        - "Program Evaluation"
+        - "Mathematics Learning and Motivation"
+        - "Educational Interventions"
         - "Quantitative Methods"
 
   # Hide unused sections
