@@ -64,7 +64,7 @@ params:
       disableContact: false
 
   # Hero (intro page)
- hero:
+  hero:
     enable: true
     intro: "Hello, and welcome. I'm"
     title: "Siling Guo"
