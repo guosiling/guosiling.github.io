@@ -84,7 +84,7 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/siling-guo
-        - icon: https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg
+        - icon: /images/scholar.png
           url: https://scholar.google.com/citations?user=1JWqhlEAAAAJ&hl=en
 
   # About
