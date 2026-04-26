@@ -64,12 +64,15 @@ params:
       disableContact: false
 
   # Hero (intro page)
-  hero:
+ hero:
     enable: true
     intro: "Hello, and welcome. I'm"
     title: "Siling Guo"
-    subtitle: "PhD Candidate in Education, University of California, Irvine"
-    content: "I study how educational interventions shape children’s math learning, motivation, and longer-run development. My research integrates developmental theory, randomized field experiments, and longitudinal quantitative methods to understand when intervention effects persist, transfer across domains, or fade over time. I will be on the 2026–2027 job market."
+    subtitle: "PhD Candidate in Education, UC Irvine"
+    content: |-
+      I study how educational interventions shape children's math learning, motivation, and longer-run development. My research integrates developmental theory, randomized field experiments, and longitudinal quantitative methods to understand when intervention effects persist, transfer across domains, or fade over time.
+
+      🔍 I will be on the 2026–2027 academic job market.
     image: /images/me.png
     bottomImage:
       enable: false
