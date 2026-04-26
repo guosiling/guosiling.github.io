@@ -69,7 +69,7 @@ params:
     intro: "Hello, and welcome. I'm"
     title: "Siling Guo"
     subtitle: "PhD Candidate in Education, University of California, Irvine"
-    content: "I study how educational interventions shape children’s math learning, motivation, and longer-run development. My research integrates developmental theory, randomized field experiments, and longitudinal quantitative methods to understand when intervention effects persist, transfer across domains, or fade over time. I will be on the job market in fall 2026."
+    content: "I study how educational interventions shape children’s math learning, motivation, and longer-run development. My research integrates developmental theory, randomized field experiments, and longitudinal quantitative methods to understand when intervention effects persist, transfer across domains, or fade over time. I will be on the 2026–2027 job market."
     image: /images/me.png
     bottomImage:
       enable: false
@@ -84,7 +84,7 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/siling-guo
-        - icon: fab fa-google
+        - icon: https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg
           url: https://scholar.google.com/citations?user=1JWqhlEAAAAJ&hl=en
 
   # About
