@@ -24,6 +24,7 @@ markup:
 params:
   title: "Siling Guo"
   description: Personal academic website of Siling Guo
+  favicon: "/images/SG_academic_icon.jpg"
 
   useBootstrapCDN: false
   mathjax: false
