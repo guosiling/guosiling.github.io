@@ -66,11 +66,11 @@ params:
   # Hero (intro page)
   hero:
     enable: true
-    intro: "Hello, and welcome. I'm"
+    intro: "Welcome!"
     title: "Siling Guo"
-    subtitle: "PhD Candidate in Education, UC Irvine"
+    subtitle: "PhD Candidate | Education |UC Irvine"
     content: |-
-      I am a researcher, educator, and applied developmental psychologist.
+      I am a researcher, educator, and doctoral candidate in developmental science.
 
       I examine how cognitive and social-emotional skills interact and develop across developmental periods, using longitudinal modeling, simulation methods, and randomized intervention studies. 
       
