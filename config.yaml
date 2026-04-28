@@ -66,10 +66,12 @@ params:
   # Hero (intro page)
   hero:
     enable: true
-    intro: "Welcome!"
+    intro: "Welcome! I'm"
     title: "Siling Guo"
-    subtitle: "PhD Candidate at UC Irvine"
+    subtitle: ""
     content: |-
+      PhD Candidate at UC Irvine
+
       I am a researcher, educator, and doctoral candidate in developmental science.
 
       I examine how cognitive and social-emotional skills interact and develop across developmental periods, using longitudinal modeling, simulation methods, and randomized intervention studies. 
