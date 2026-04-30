@@ -1,0 +1,8 @@
+.single-page .post-meta,
+.single-page .reading-time,
+.post-meta,
+.reading-time,
+#reading-time,
+.toc-container {
+  display: none !important;
+}

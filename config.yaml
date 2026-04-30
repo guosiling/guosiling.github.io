@@ -38,6 +38,9 @@ params:
   mathjax: false
   animate: true
 
+  customCSS:
+    - css/custom.css
+
   theme:
     # disableThemeToggle: true
     # defaultTheme: "light" # dark
