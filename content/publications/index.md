@@ -1,6 +1,9 @@
 ---
 title: "Publications"
-date: 2026-04-29
+type: "page"
+showDate: false
+showReadingTime: false
+hideMeta: true
 ---
 
 **Peer-Reviewed Publications**
