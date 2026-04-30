@@ -27,7 +27,7 @@ Menus:
       name: Publications
       title: Publications
       url: /publications
-      weight: 1
+      weight: 2
 
 params:
   title: "Siling Guo"
