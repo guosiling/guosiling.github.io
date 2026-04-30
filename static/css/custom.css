@@ -1,8 +1,14 @@
-.single-page .post-meta,
-.single-page .reading-time,
-.post-meta,
-.reading-time,
-#reading-time,
-.toc-container {
+/* Hide date and read time on publications page */
+.post-single-meta {
+  display: none !important;
+}
+
+/* Hide table of contents */
+.toc {
+  display: none !important;
+}
+
+/* Hide social sharing sidebar */
+.post-single-right {
   display: none !important;
 }
