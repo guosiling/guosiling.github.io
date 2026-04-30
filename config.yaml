@@ -21,6 +21,14 @@ markup:
     renderer:
       unsafe: true
 
+Menus:
+  main:
+    - identifier: publications
+      name: Publications
+      title: Publications
+      url: /publications
+      weight: 1
+
 params:
   title: "Siling Guo"
   description: Personal academic website of Siling Guo
