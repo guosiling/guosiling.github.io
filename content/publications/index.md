@@ -1,9 +1,6 @@
 ---
 title: "Publications"
-type: "page"
-showDate: false
-showReadingTime: false
-hideMeta: true
+layout: "publications"
 ---
 
 **Peer-Reviewed Publications**
