@@ -4,6 +4,7 @@ layout: "publications"
 ---
 
 **Peer-Reviewed Publications**
+Acevedo-Farag, L. M., **Guo, S.**, Kim, Y., Romero, L., Yu, X., Begolli, K. N., Bustamante, A. S., & Ahn, J. (accepted). Structuring playful learning: How task design influences engagement in a playful math intervention. *Educational Designer*.
 
 Wan, S., Tian, J., **Guo, S.**, & Lauermann, F. (accepted). Do students become more likely to see themselves as a "math person" or a "language person" across K-12? Evidence from four U.S. longitudinal datasets. *Child Development*.
 
@@ -22,8 +23,6 @@ Gong, J., Han, T., **Guo, S.**, Li, J., Zha, S., Zhang, L., ... & Rui, Y. (2021)
 **Guo, S.**, Hübner, N., Zitzmann, S., Hecht, M., Murayama, K., & Bailey, D. H. (Revise and Resubmit). Random intercepts and slopes in longitudinal models: When are they "good" and "bad" controls? *Psychological Methods*.
 
 Cristancho, J. C., **Guo, S.**, McCoy, D. C., & Bailey, D. H. (Revise and Resubmit). A meta-analysis of the effects of objective measures of exposure to community violence on child outcomes. *Developmental Psychology*.
-
-Acevedo-Farag, L. M., **Guo, S.**, Kim, Y., Romero, L., Yu, X., Begolli, K. N., Bustamante, A. S., & Ahn, J. (Revise and Resubmit). Structuring playful learning: How task design influences engagement in a playful math intervention. *Educational Designer*.
 
 **Working Papers**
 
