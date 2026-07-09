@@ -4,6 +4,7 @@ layout: "publications"
 ---
 
 **Peer-Reviewed Publications**
+
 Acevedo-Farag, L. M., **Guo, S.**, Kim, Y., Romero, L., Yu, X., Begolli, K. N., Bustamante, A. S., & Ahn, J. (accepted). Structuring playful learning: How task design influences engagement in a playful math intervention. *Educational Designer*.
 
 Wan, S., Tian, J., **Guo, S.**, & Lauermann, F. (accepted). Do students become more likely to see themselves as a "math person" or a "language person" across K-12? Evidence from four U.S. longitudinal datasets. *Child Development*.
