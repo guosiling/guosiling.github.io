@@ -32,7 +32,7 @@ Menus:
 params:
   title: "Siling Guo"
   description: Personal academic website of Siling Guo
-  favicon: "/images/SG_academic_icon.jpg"
+  favicon: "/images/uci.jpg"
 
   useBootstrapCDN: false
   mathjax: false
